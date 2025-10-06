@@ -33,15 +33,15 @@
   object-fit: cover; [cite_start]/* [cite: 91] */
 [cite_start]} /* [cite: 92] */
 .gallery {
-  display: grid; /* */
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* */
-  gap: 16px; /* */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
 }
 
 .gallery img {
-  width: 100%; /* */
-  height: 200px; /* */
-  display: block; /* */
-  object-fit: cover; /* */
-  border-radius: 8px; /* */
+  width: 100%;
+  height: 200px;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
 }
