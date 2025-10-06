@@ -1,0 +1,47 @@
+[cite_start]:root { /* [cite: 49] */
+  --bg: #f7f7f7; [cite_start]/* [cite: 50] */
+  --fg: #222; [cite_start]/* [cite: 51] */
+  --muted: #666; [cite_start]/* [cite: 52] */
+  --card: #fff; [cite_start]/* [cite: 53] */
+  --b: #ddd; [cite_start]/* [cite: 54] */
+[cite_start]} /* [cite: 55] */
+* [cite_start]{ /* [cite: 56] */
+  box-sizing: border-box; [cite_start]/* [cite: 57] */
+[cite_start]} /* [cite: 58] */
+[cite_start]body { /* [cite: 59] */
+  margin: 0; [cite_start]/* [cite: 60] */
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif; [cite_start]/* [cite: 61] */
+  background: var(--bg); [cite_start]/* [cite: 62] */
+  color: var(--fg); [cite_start]/* [cite: 63] */
+[cite_start]} /* [cite: 64] */
+[cite_start]header, main { /* [cite: 65] */
+  max-width: 1060px; [cite_start]/* [cite: 66] */
+  margin: 0 auto; [cite_start]/* [cite: 67] */
+  padding: 20px; [cite_start]/* [cite: 68] */
+[cite_start]} /* [cite: 69] */
+[cite_start].gallery { /* [cite: 78] */
+  display: grid; [cite_start]/* [cite: 79] */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); [cite_start]/* [cite: 80] */
+  gap: 16px; [cite_start]/* [cite: 81] */
+  margin-top: 16px; [cite_start]/* [cite: 82] */
+[cite_start]} /* [cite: 83] */
+[cite_start].gallery img { /* [cite: 84] */
+  width: 100%; [cite_start]/* [cite: 85] */
+  height: 200px; [cite_start]/* [cite: 86] */
+  display: block; [cite_start]/* [cite: 87] */
+  border-radius: 8px; [cite_start]/* [cite: 88] */
+  object-fit: cover; [cite_start]/* [cite: 91] */
+[cite_start]} /* [cite: 92] */
+.gallery {
+  display: grid; /* */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* */
+  gap: 16px; /* */
+}
+
+.gallery img {
+  width: 100%; /* */
+  height: 200px; /* */
+  display: block; /* */
+  object-fit: cover; /* */
+  border-radius: 8px; /* */
+}
